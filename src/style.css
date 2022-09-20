@@ -90,3 +90,159 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+
+.skills {
+  height: 610px;
+  text-align: center;
+  padding: 100px 40px;
+}
+
+p {
+  font-family: 'Gilroy-Medium';
+
+  
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 85px;
+}
+
+a {
+  text-decoration: none;
+  color: #828282;
+  ;
+}
+
+.image_1 {
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+
+}
+
+.image_2 {
+  background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+
+.image_3 {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+
+}
+
+
+
+
+
+
+
+
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.rating-result {
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-result span {
+	padding: 0;
+	font-size: 32px;
+	margin: 0 3px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+h2 {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 47px;
+
+}
+
+.Portfolio {
+  height: 2253px;
+  padding-top: 112px;
+  text-align: center;
+  background: #F6F6F6;
+}
+
+figcaption {
+  margin-top: 45px;
+  margin-bottom: 99px;
+}
+
+.contacts{
+  padding-top: 114px;
+  text-align: center;
+  height: 622px;
+}
+
+.button {
+  width: 180px;
+  height: 42px;
+  margin-top: 30px;
+  margin-bottom: 86px;
+  text-align: center;
+  background-color: #070707;
+  color: #fff;
+  border-radius: 25px;
+  
+}
+
+.social_media {
+  display: flex;
+  justify-content: space-between;
+  margin: auto auto 46px;
+  width: 343px;
+
+}
