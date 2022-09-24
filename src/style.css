@@ -246,3 +246,10 @@ figcaption {
   width: 343px;
 
 }
+
+.contacts p {
+color: #828282;
+font-size: 14px;
+line-height: 17px;
+font-weight: 400
+}
